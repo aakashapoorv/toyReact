@@ -1,0 +1,42 @@
+{
+  "name": "toy-react",
+  "version": "0.1.0",
+  "description": "Fast and lightweight JSX renderer experiment",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "coverage": "jest -- --coverage",
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
+  },
+  "keywords": [
+    "jsx",
+    "renderer",
+    "vdom"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/jest": "^26.0.24",
+    "@types/jsdom": "^21.1.1",
+    "@types/node": "^20.4.8",
+    "babel-jest": "^29.6.2",
+    "jest": "^26.4.2",
+    "prettier": "^3.0.1",
+    "typescript": "^4.0.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./jest.setup.js"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "text-encoding": "^0.7.0"
+  }
+}
