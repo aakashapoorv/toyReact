@@ -1,5 +1,42 @@
 # Toy React
 
+```
+      ____________
+     /\  ________ \
+    /  \ \______/\ \
+   / /\ \ \  / /\ \ \
+  / / /\ \ \/ / /\ \ \
+ / / /__\ \ \/_/__\_\ \__________
+/ /_/____\ \__________  ________ \
+\ \ \____/ / ________/\ \______/\ \
+ \ \ \  / / /\ \  / /\ \ \  / /\ \ \
+  \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
+   \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
+    \  /_/______\/_/____\ \___________\
+    /  \ \______/\ \____/ / ________  /
+   / /\ \ \  / /\ \ \  / / /\ \  / / /
+  / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
+ / / /__\ \ \/_/__\_\/ / /__\_\/ / /
+/ /_/____\ \_________\/ /______\/ /
+\ \ \____/ / ________  __________/
+ \ \ \  / / /\ \  / / /
+  \ \ \/ / /\ \ \/ / /
+   \ \/ / /__\_\/ / /
+    \  / /______\/ /
+     \/___________/
+
+ _________  ________      ___    ___ ________  _______   ________  ________ _________   
+|\___   ___\\   __  \    |\  \  /  /|\   __  \|\  ___ \ |\   __  \|\   ____\\___   ___\ 
+\|___ \  \_\ \  \|\  \   \ \  \/  / | \  \|\  \ \   __/|\ \  \|\  \ \  \___\|___ \  \_| 
+     \ \  \ \ \  \\\  \   \ \    / / \ \   _  _\ \  \_|/_\ \   __  \ \  \       \ \  \  
+      \ \  \ \ \  \\\  \   \/  /  /   \ \  \\  \\ \  \_|\ \ \  \ \  \ \  \____   \ \  \ 
+       \ \__\ \ \_______\__/  / /      \ \__\\ _\\ \_______\ \__\ \__\ \_______\  \ \__\
+        \|__|  \|_______|\___/ /        \|__|\|__|\|_______|\|__|\|__|\|_______|   \|__|
+                        \|___|/                                                         
+```
+
+
+
 Welcome to Toy React, an experimental project aimed to provide a simplified, educational insight into how React handles virtual DOM. Crafted using TypeScript, this project showcases how a virtual representation of the DOM can be created, and subsequently, how the actual DOM can be efficiently updated based on changes within the virtual DOM (VDOM).
 
 Please note, this project is purely for learning purposes and doesn't possess the complete capabilities of the actual React library.
@@ -23,13 +60,13 @@ Here's a quick guide to set up the project:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/aakashapoorv/toyReact.git
    ```
 
 2. Switch into the project directory:
 
    ```bash
-   cd yourrepository
+   cd toyReact
    ```
 
 3. Install dependencies:
