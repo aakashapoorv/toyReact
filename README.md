@@ -57,25 +57,32 @@ The project comprises the following main elements:
 
 Here's a quick guide to set up the project:
 
-1. Clone the repository:
+1. Ensure you have Node.js version v20.4.0 installed.
+
+   ```bash
+   node -v
+   v20.4.0
+   ```
+
+2. Clone the repository:
 
    ```bash
    git clone https://github.com/aakashapoorv/toyReact.git
    ```
 
-2. Switch into the project directory:
+3. Switch into the project directory:
 
    ```bash
    cd toyReact
    ```
 
-3. Install dependencies:
+4. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Run the tests:
+5. Run the tests:
 
    ```bash
    npm test
