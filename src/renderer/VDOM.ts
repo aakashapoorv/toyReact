@@ -34,7 +34,6 @@ class VDOM {
     }
 
     if (this.type !== vdom.type) {
-      console.log("Detected TYPE_DIFF:", this.type, "->", vdom.type);
       patches.push(new Patch("TYPE_DIFF", vdom));
     }
 
@@ -80,6 +79,7 @@ class VDOM {
     const element = document.createElement(this.type);
 
     // Set element attributes
+    // @ts-ignore
     for (const [name, value] of Object.entries(this.props)) {
       if (name === "classname") element.setAttribute("class", value);
       else element.setAttribute(name, value);
