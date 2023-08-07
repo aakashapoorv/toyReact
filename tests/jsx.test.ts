@@ -1,6 +1,7 @@
 import { toyReact } from "../src/toyReact";
 import { Renderer } from "../src/renderer/Renderer";
 import { htmlToElement } from "../src/htmlToElement";
+import { describe, expect, beforeEach, it } from "@jest/globals";
 
 describe("JSX Tests", () => {
   let container: HTMLElement;
@@ -62,7 +63,6 @@ describe("JSX Tests", () => {
 
     vdom = toyReact(updatedJSX);
     renderer.render(vdom, container);
-    console.log("Container content post render:", container.innerHTML);
 
     const expectedDOM = htmlToElement(updatedJSX);
     expect((container.firstChild as Element).outerHTML).toEqual(
